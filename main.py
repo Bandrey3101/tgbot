@@ -7,7 +7,7 @@ bot = telebot.TeleBot('token')
 
 now = datetime.datetime.utcnow().isoformat()
 current_time = datetime.datetime.now()
-current_date_string = datetime.date.today()  # current_time.strftime('%d.%m')
+current_date_string = datetime.date.today()  
 current_hour = str(current_time)[11:13]
 
 t8 = types.KeyboardButton('8:00')
@@ -27,8 +27,7 @@ aftertomorrow = aftertomorrow.strftime('%d.%m')
 twoaftertomorrow = twoaftertomorrow.strftime('%d.%m')
 threaftertomorrow = threaftertomorrow.strftime('%d.%m')
 back = types.KeyboardButton('Назад')
-#
-# future_date = datetime.date.today() + datetime.timedelta(days=21)
+
 
 event_summary = ''
 booking_time = ''
