@@ -200,5 +200,5 @@ def finish(message):
                      f'\n{booking_day}\nв {booking_time}\nтвой номер: {phone_num}\n\nВсе верно?',
                      reply_markup=markup)
 
-
+#Это только часть кода
 
